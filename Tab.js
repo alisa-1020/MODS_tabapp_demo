@@ -96,7 +96,7 @@ class Tab extends React.Component {
 
       this.setState({
         profile: profile,
-        photoObjectURL: URL.createObjectURL(photoBlob);
+        photoObjectURL: URL.createObjectURL(photoBlob),
       });
     }
     catch(err) {

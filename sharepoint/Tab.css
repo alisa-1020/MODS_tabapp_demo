@@ -1,0 +1,33 @@
+.profile {
+    margin: 10px;
+}
+
+.todo button {
+    margin: 0 5px;
+}
+
+.add,
+.item {
+    margin: 5px;
+}
+
+.add input {
+    margin-left: 5px;
+}
+
+span {
+    display: inline-block;
+    margin: 5px;
+}
+
+.number {
+    width: 80px;
+}
+
+.isComplete {
+    margin-right: 10px;
+}
+
+.text {
+    margin-right: 10px;
+}

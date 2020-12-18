@@ -91,7 +91,7 @@ class Tab extends React.Component {
         authProvider: authProvider
       })
       var profile = await client.api("/me").get();
-      var location = await client.api("/location").get();
+      // var location = await client.api("/location").get();
       var photoBlob = await client.api("/me/photos('120x120')/$value").get();
 
       this.setState({

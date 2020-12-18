@@ -18,7 +18,7 @@ class Tab extends React.Component {
       profile: {},
       photoObjectURL: "",
       showLoginBtn: false,
-      calendar: {},
+      manager: {},
     }
   }
 
@@ -67,11 +67,11 @@ class Tab extends React.Component {
       });
 
       // // test case 26
-      // // graph client display user calendar by calling api ("/calendar")
+      // // graph client display user manager by calling api ("/me/manager")
       // // uncomment the folloing code
-      // var calendar = await graphClient.api("/me/calendars");
+      // var manager = await graphClient.api("/me/manager");
       // this.setState({
-      //   calendar: calendar,
+      //   manager: manager,
       // });
     }
     catch (err) {
@@ -153,10 +153,10 @@ class Tab extends React.Component {
             <div><b>Preferred Language:</b> {this.state.preferredLanguage} </div> */}
 
             {/* test case 27
-            display user calendar infomation */}
-            {/* <div><b>Calendar Name:</b>{this.state.calendar.name}</div>
-            <div><b>Calendar id:</b> {this.state.calendar.id} </div>
-            <div><b>Calendar canShare:</b>{this.state.calendar.canShare} </div> */}
+            display user manager infomation */}
+            {/* <div><b>manager display name:</b>{this.state.manager.displayName}</div>
+            <div><b>manager job title:</b> {this.state.manager.jobTitle} </div>
+            <div><b>manager mail:</b>{this.state.manager.mail} </div> */}
           </div>
         </p>
 

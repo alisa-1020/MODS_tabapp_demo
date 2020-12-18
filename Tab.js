@@ -69,7 +69,7 @@ class Tab extends React.Component {
       // // test case 26
       // // graph client display user manager by calling api ("/me/manager")
       // // uncomment the folloing code
-      // var manager = await graphClient.api("/me/manager");
+      // var manager = await graphClient.api("/me/manager").get();
       // this.setState({
       //   manager: manager,
       // });
@@ -149,8 +149,8 @@ class Tab extends React.Component {
                 uncommand the following code.*/}
             {/* <div><b>SurName:</b> {this.state.profile.surname} </div>
             <div><b>Given Name:</b> {this.state.profile.givenName} </div>
-            <div><b>Mobile Phone:</b> {this.state.mobilePhone} </div>
-            <div><b>Preferred Language:</b> {this.state.preferredLanguage} </div> */}
+            <div><b>Mobile Phone:</b> {this.state.profile.mobilePhone} </div>
+            <div><b>Preferred Language:</b> {this.state.profile.preferredLanguage} </div> */}
 
             {/* test case 27
             display user manager infomation */}

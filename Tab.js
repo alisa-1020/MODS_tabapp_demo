@@ -143,7 +143,7 @@ class Tab extends React.Component {
             <div><b>E-mail:</b> {this.state.profile.mail}</div>
             <div><b>UPN:</b> {this.state.profile.userPrincipalName}</div>
             <div><b>Object id:</b> {this.state.profile.id}</div>
-            <div><b>Office Localtiuon: </b>{this.state.profile.localtion}</div>
+            {/* <div><b>Office Localtiuon: </b>{this.state.profile.localtion}</div> */}
             {/* test case  26 
                 display all users info
                 uncommand the following code.*/}

@@ -4,7 +4,7 @@
 import React from 'react';
 import './App.css';
 import './Tab.css'
-import { MODS } from "teamsauth";
+import { MODS } from "mods-client";
 import { StorageClient } from './StorageClient';
 
 /**
@@ -143,7 +143,7 @@ class Tab extends React.Component {
         <span className="content">
           <input
             type="text"
-            value={this.state.items[index].content}
+            value={this.state.items[index].Title}
             onChange={(ev) => this.handleInputChange(index, "content", ev.target.value)}
             className="text"
           />

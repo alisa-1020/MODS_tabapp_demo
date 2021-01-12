@@ -3,7 +3,7 @@
 
 import React from 'react';
 import './App.css';
-import { MODS } from "teamsauth";
+import { MODS } from "mods-client";
 import { Client } from "@microsoft/microsoft-graph-client";
 
 /**

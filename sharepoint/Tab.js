@@ -100,10 +100,6 @@ class Tab extends React.Component {
     this.refresh();
   }
 
-  async onUpdateItem(id, content) {
-    await this.storageClient.updateItemContent(id, content);
-  }
-
   async onDeleteItem(id) {
     await this.storageClient.deleteItem(id);
     this.refresh();
@@ -148,7 +144,6 @@ class Tab extends React.Component {
             className="text"
           />
 
-          <button onClick={() => this.onUpdateItem(item.id, this.state.items[index].Title)}>Update</button>
           <button onClick={() => this.onDeleteItem(item.id)}>Delete</button>
         </span>
       </div>
